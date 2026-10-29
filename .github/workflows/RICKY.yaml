@@ -1,0 +1,117 @@
+
+name: RICKY AI - Build and Test
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  android:
+    name: Android APK Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK packages
+        run: |
+          sdkmanager "platform-tools" "platforms;android-36" "platforms;android-36.1" "build-tools;36.0.0"
+
+      - name: Create temporary debug keystore
+        run: |
+          keytool -genkeypair \
+            -keystore debug.keystore \
+            -storepass android \
+            -alias androiddebugkey \
+            -keypass android \
+            -dname "CN=Android Debug,O=Android,C=US" \
+            -keyalg RSA -keysize 2048 -validity 10000
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
+
+      - name: Run Android tests and build APK
+        run: gradle testDebugUnitTest assembleDebug
+
+      - name: Upload APK
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ricky-ai-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+
+  python-model:
+    name: Python Model Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install training dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch numpy onnx
+
+      - name: Check Python syntax
+        run: python -m compileall -q training
+
+      - name: Run model tests
+        working-directory: training
+        run: python -m unittest discover -v
+
+      - name: Run tiny training test
+        working-directory: training
+        run: |
+          python train.py \
+            --data datasets/starter.jsonl \
+            --out /tmp/ricky-smoke \
+            --steps 2 \
+            --batch-size 2 \
+            --block-size 32 \
+            --width 16 \
+            --layers 1 \
+            --heads 2
+
+      - name: Verify checkpoint
+        run: |
+          test -s /tmp/ricky-smoke/ricky_checkpoint.pt
+          test -s /tmp/ricky-smoke/vocab.json
+
+      - name: Evaluate model
+        working-directory: training
+        run: |
+          python evaluate.py \
+            --checkpoint /tmp/ricky-smoke/ricky_checkpoint.pt \
+            --vocab /tmp/ricky-smoke/vocab.json \
+            --data datasets/validation.jsonl
+
+      - name: Export and validate ONNX model
+        working-directory: training
+        run: |
+          python export_onnx.py \
+            --checkpoint /tmp/ricky-smoke/ricky_checkpoint.pt \
+            --vocab /tmp/ricky-smoke/vocab.json \
+            --out /tmp/ricky-smoke/model.onnx
+          python -c "import onnx; onnx.checker.check_model('/tmp/ricky-smoke/model.onnx'); print('ONNX validation passed')"
