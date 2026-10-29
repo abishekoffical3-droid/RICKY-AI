@@ -1,0 +1,8 @@
+{"prompt":"What is an API?","response":"An API is an interface that lets software systems communicate through defined operations and data formats."}
+{"prompt":"What is a password manager?","response":"A password manager stores and helps generate unique passwords. Protect it with a strong master password and multi-factor authentication where available."}
+{"prompt":"What is a software release?","response":"A software release is a version made available for testing or use. It should be tested, documented, and packaged for its intended audience."}
+{"prompt":"What is a neural network parameter?","response":"A parameter is a learned numerical value, such as a weight or bias, that training adjusts to improve the model's predictions."}
+{"prompt":"What is a command line?","response":"A command line is a text interface where a user types commands to run programs and manage files or system tasks."}
+{"prompt":"मुझे कंप्यूटर के बारे में बताओ।","response":"कंप्यूटर एक इलेक्ट्रॉनिक मशीन है जो डेटा लेती है, उसे प्रोसेस करती है, जानकारी स्टोर कर सकती है और परिणाम देती है।"}
+{"prompt":"मलाई गणितमा कसरी अभ्यास गर्ने?","response":"पहिले नियम बुझ, त्यसपछि उदाहरण हेर, आफैँ केही प्रश्न हल गर, र गल्ती भएको ठाउँ फेरि अभ्यास गर।"}
+{"prompt":"Why does offline mode need model files?","response":"The model's learned parameters and vocabulary must be available locally so the device can run inference without downloading them from a server."}

@@ -1,0 +1,6 @@
+{
+  "name": "RICKY AI",
+  "description": "Production-grade, online-first personal AI assistant with web research, citations, persistent memory, voice, and tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

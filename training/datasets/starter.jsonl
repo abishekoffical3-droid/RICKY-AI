@@ -1,0 +1,97 @@
+{"prompt": "Who are you?", "response": "I am RICKY AI, a local assistant project. I answer using the model installed on this device when one is available."}
+{"prompt": "Namaste", "response": "Namaste! Ma RICKY AI hu. Timilai ke sahayog chahinchha?"}
+{"prompt": "What is a computer?", "response": "A computer is an electronic machine that accepts input, processes data, stores information, and produces output."}
+{"prompt": "What is Python?", "response": "Python is a general-purpose programming language known for readable syntax. It is used for automation, data analysis, web services, and machine learning."}
+{"prompt": "Explain HTML simply.", "response": "HTML gives a web page its structure. Headings, paragraphs, images, links, and forms are described with HTML elements."}
+{"prompt": "What is CSS?", "response": "CSS controls how web pages look, including colors, spacing, fonts, layout, and responsive design."}
+{"prompt": "What is JavaScript?", "response": "JavaScript adds behavior to web pages. It can respond to clicks, update content, validate forms, and communicate with services."}
+{"prompt": "How should I learn coding?", "response": "Start with one language, practise small examples daily, build tiny projects, read errors carefully, and improve one feature at a time."}
+{"prompt": "Explain machine learning.", "response": "Machine learning is a field where a computer learns patterns from examples and uses those patterns to make predictions or generate outputs."}
+{"prompt": "What is a neural network?", "response": "A neural network is a model made of connected mathematical layers. Training adjusts its parameters to reduce errors on example data."}
+{"prompt": "What does offline mean?", "response": "Offline means a feature works without an internet connection. An offline AI needs its model files stored on the device."}
+{"prompt": "Can a prompt train a model?", "response": "No. A prompt can request code or explain a plan, but training needs a dataset, training software, compute resources, and time."}
+{"prompt": "What is a tokenizer?", "response": "A tokenizer converts text into tokens or token IDs that a model can process. This starter project uses a simple character-level tokenizer."}
+{"prompt": "What is an API key?", "response": "An API key is a secret credential used to access a service. Never publish real keys in source code or commit them to a repository."}
+{"prompt": "How do I protect passwords?", "response": "Use unique passwords, a password manager, and multi-factor authentication where possible. Never share one-time codes with other people."}
+{"prompt": "Mero English kasari improve garne?", "response": "Daily 10 minute English ma sano paragraph padh, naya words ko meaning lekha, ani afnai sentence bana. Galti bhaye pani practice jari rakha."}
+{"prompt": "नेपालको राजधानी के हो?", "response": "नेपालको राजधानी काठमाडौं हो।"}
+{"prompt": "What is a variable in programming?", "response": "A variable is a named place to store a value so a program can use or update it later."}
+{"prompt": "What is debugging?", "response": "Debugging is the process of finding, understanding, and fixing problems in a program."}
+{"prompt": "How should an AI handle unknown facts?", "response": "It should say when it is unsure, avoid inventing sources, and ask for more context or verify the fact when tools are available."}
+{"prompt": "What is RICKY Model Lab?", "response": "RICKY Model Lab is the training workspace for preparing a dataset, training a small model from random initialization, evaluating it, and exporting it for local inference."}
+{"prompt": "मुझे हिंदी में जवाब दो।", "response": "ज़रूर। मैं हिंदी में जवाब देने की कोशिश करूँगा। आप क्या जानना चाहते हैं?"}
+{"prompt": "What is a dataset?", "response": "A dataset is a collection of examples used to test or train software. Good training data should be relevant, clean, diverse, and legally usable."}
+{"prompt": "What is a checkpoint?", "response": "A checkpoint is a saved snapshot of a model and its training state. It lets training resume or a model be evaluated later."}
+{"prompt": "Why is a tiny model not as smart as ChatGPT?", "response": "A tiny model has far fewer parameters and usually much less training data and compute. It is useful for learning and narrow tasks but should not be expected to match large assistants."}
+{"prompt": "What is an algorithm?", "response": "An algorithm is a finite set of clear steps used to solve a problem or complete a task."}
+{"prompt": "What is a function in Python?", "response": "A function is a reusable block of code. Define one with def, give it a name, and call it when needed."}
+{"prompt": "What is a loop?", "response": "A loop repeats instructions. Python commonly uses for loops to iterate over items and while loops to repeat while a condition is true."}
+{"prompt": "What is a list in Python?", "response": "A list stores an ordered collection of items and can be changed after creation. Example: fruits = ['apple', 'mango']."}
+{"prompt": "What is a dictionary in Python?", "response": "A dictionary stores key-value pairs. Example: student = {'name': 'Rita', 'grade': 9}."}
+{"prompt": "What is a bug in software?", "response": "A bug is a defect that causes software to behave differently from what was intended."}
+{"prompt": "How do I debug an error?", "response": "Read the full error message, find the file and line mentioned, reproduce the issue, check assumptions, make one small fix, and test again."}
+{"prompt": "What is Git?", "response": "Git is a version-control system that records changes to files so developers can review history and collaborate."}
+{"prompt": "What is GitHub?", "response": "GitHub is an online platform for hosting Git repositories and collaborating through issues, branches, pull requests, and automation."}
+{"prompt": "What is an APK?", "response": "An APK is an Android application package file used to install an Android app. A debug APK is mainly for testing."}
+{"prompt": "What is Android Studio?", "response": "Android Studio is Google's integrated development environment for building, testing, and debugging Android applications."}
+{"prompt": "What is Kotlin?", "response": "Kotlin is a statically typed programming language commonly used for Android development. It supports concise syntax and null-safety features."}
+{"prompt": "What is Java?", "response": "Java is a general-purpose programming language that runs on the Java Virtual Machine and is widely used for backend and Android-related development."}
+{"prompt": "What is an operating system?", "response": "An operating system manages a device's hardware and provides services for applications. Examples include Android, Windows, Linux, and ChromeOS."}
+{"prompt": "What is RAM?", "response": "RAM is short-term working memory used by running programs. More available RAM can help multitasking, but it does not replace storage."}
+{"prompt": "What is storage?", "response": "Storage keeps files and applications even when a device is powered off. SSDs and eMMC are examples of storage devices."}
+{"prompt": "What is a database?", "response": "A database is an organized collection of data that software can store, query, update, and manage."}
+{"prompt": "What is SQLite?", "response": "SQLite is a small relational database engine often embedded directly in apps. It can work locally without a separate database server."}
+{"prompt": "What is JSON?", "response": "JSON is a text format for structured data using objects, arrays, strings, numbers, booleans, and null."}
+{"prompt": "What is an HTTP request?", "response": "An HTTP request is a message a client sends to a server to ask for a resource or perform an action. Common methods include GET and POST."}
+{"prompt": "What is HTTPS?", "response": "HTTPS protects HTTP traffic with TLS encryption, helping protect data in transit and authenticate the server."}
+{"prompt": "What is a frontend?", "response": "The frontend is the part of an application users interact with, such as screens, buttons, forms, and page layouts."}
+{"prompt": "What is a backend?", "response": "The backend handles server-side logic, data processing, authentication, and connections to databases or other services."}
+{"prompt": "What is responsive web design?", "response": "Responsive design adapts a page layout to different screen sizes using flexible layouts, media queries, and scalable content."}
+{"prompt": "What is accessibility in an app?", "response": "Accessibility means designing an app so people with different abilities can use it, including support for screen readers, clear labels, and sufficient contrast."}
+{"prompt": "What is cybersecurity?", "response": "Cybersecurity is the practice of protecting devices, accounts, networks, and information from unauthorized access and misuse."}
+{"prompt": "How can I stay safe online?", "response": "Use unique passwords, enable multi-factor authentication, update software, check links carefully, and never share login codes or passwords."}
+{"prompt": "What is two-factor authentication?", "response": "Two-factor authentication asks for a second proof of identity in addition to a password, such as an authenticator code or security key."}
+{"prompt": "What is encryption?", "response": "Encryption transforms readable information into a protected form that can be read only with the appropriate key."}
+{"prompt": "What is open-source software?", "response": "Open-source software makes its source code available under a license that defines how people may use, inspect, modify, and share it."}
+{"prompt": "What is a license in a software project?", "response": "A software license explains the permissions and conditions for using, modifying, and distributing code. Check the license of every dependency and dataset."}
+{"prompt": "How do I plan a big app?", "response": "Write the main user stories, divide the work into small modules, define interfaces, build one vertical slice first, test it, and then expand gradually."}
+{"prompt": "How should I test an app?", "response": "Test normal use, empty inputs, invalid inputs, offline behavior, permission denial, small screens, and failure recovery. Automate repeatable checks."}
+{"prompt": "What is a unit test?", "response": "A unit test checks one small part of a program in isolation so that regressions can be caught quickly."}
+{"prompt": "What is continuous integration?", "response": "Continuous integration automatically builds and tests code when changes are pushed, helping detect problems earlier."}
+{"prompt": "What is a machine-learning model?", "response": "A machine-learning model is a mathematical system whose parameters are adjusted from data to learn patterns for a task."}
+{"prompt": "What is a training dataset?", "response": "A training dataset contains examples used to adjust model parameters. It should be relevant, diverse, accurate, and legally usable."}
+{"prompt": "What is overfitting?", "response": "Overfitting happens when a model learns training examples too specifically and performs poorly on new examples."}
+{"prompt": "Why do we need evaluation data?", "response": "Evaluation data helps measure how a model performs on examples it did not train on, giving a better estimate of generalization."}
+{"prompt": "What is a transformer?", "response": "A transformer is a neural-network architecture that uses attention to process relationships between tokens in a sequence."}
+{"prompt": "What is an embedding?", "response": "An embedding maps a token or item to a learned vector of numbers that a model can process."}
+{"prompt": "What is a language model?", "response": "A language model learns patterns in text and estimates or generates token sequences. Its answers can still be wrong, so important claims need verification."}
+{"prompt": "What is inference?", "response": "Inference is using a trained model to produce a prediction or output, rather than adjusting its parameters during training."}
+{"prompt": "What is a model checkpoint?", "response": "A model checkpoint saves parameters and often configuration or optimizer state so the model can be evaluated or training can continue."}
+{"prompt": "What does training from scratch mean?", "response": "Training from scratch starts with randomly initialized model weights. It needs substantial suitable data and compute; a short run on a tiny dataset is only a demonstration."}
+{"prompt": "Can an offline model search the live web?", "response": "No. A fully offline model cannot retrieve new live web pages. Live search needs internet access and a search service or a configured crawler."}
+{"prompt": "How should RICKY respond when unsure?", "response": "RICKY should be honest about uncertainty, avoid inventing sources, explain what it can verify, and ask a focused question when context is missing."}
+{"prompt": "How can I improve my English speaking?", "response": "Practise short conversations regularly, learn phrases in context, record yourself if comfortable, and correct one or two recurring mistakes at a time."}
+{"prompt": "Explain the water cycle simply.", "response": "The water cycle is the movement of water through evaporation, condensation, precipitation, and collection. Sunlight provides much of the energy."}
+{"prompt": "What is photosynthesis?", "response": "Photosynthesis is the process plants use to turn light energy, water, and carbon dioxide into sugars, releasing oxygen as a by-product."}
+{"prompt": "What is gravity?", "response": "Gravity is the attraction between objects with mass. On Earth, it pulls objects toward the planet's center."}
+{"prompt": "What is the difference between weather and climate?", "response": "Weather describes short-term atmospheric conditions. Climate describes patterns and averages over a much longer period."}
+{"prompt": "What is a fraction?", "response": "A fraction represents part of a whole and is written as a numerator over a nonzero denominator."}
+{"prompt": "How do I calculate a percentage?", "response": "To find p percent of a number n, calculate (p / 100) × n."}
+{"prompt": "What is a prime number?", "response": "A prime number is an integer greater than 1 with exactly two positive divisors: 1 and itself."}
+{"prompt": "What is a variable in algebra?", "response": "A variable is a symbol, often a letter, that represents a number or value that may be unknown or may change."}
+{"prompt": "How do I study effectively?", "response": "Set a small goal, practise recalling ideas without looking, solve examples, take short breaks, and revisit difficult topics over several days."}
+{"prompt": "How can I organize a coding project?", "response": "Separate UI, data, domain logic, and platform integrations. Use clear names, small files, tests, and documentation for setup and limitations."}
+{"prompt": "Why should secrets not be committed to GitHub?", "response": "Public or shared repository history can expose secrets. Store credentials in environment variables or repository secrets and rotate any key that was exposed."}
+{"prompt": "What should I do when a build fails?", "response": "Open the failed workflow, find the first meaningful error rather than the last summary line, note the file and line, fix one root cause, and rerun the tests."}
+{"prompt": "What is a fallback?", "response": "A fallback is a simpler behavior used when the preferred feature is unavailable, such as showing offline tools when a network request fails."}
+{"prompt": "What is local-first software?", "response": "Local-first software keeps important data and functionality on the user's device where practical, improving offline access and user control."}
+{"prompt": "What is data privacy?", "response": "Data privacy concerns how personal information is collected, used, stored, shared, and deleted. Collect only what is necessary and explain its use."}
+{"prompt": "What is a good chatbot memory design?", "response": "Store only useful information with clear user control, allow review and deletion, avoid secrets, and keep private data on-device when feasible."}
+{"prompt": "What is a safe reminder feature?", "response": "A reminder feature should clearly show the scheduled time, request needed permissions, handle denied permissions gracefully, and let the user cancel reminders."}
+{"prompt": "How should an AI use tools?", "response": "It should choose a tool only when needed, validate inputs, handle errors, explain limitations, and ask permission before consequential actions."}
+{"prompt": "मशीन लर्निंग क्या है?", "response": "मशीन लर्निंग में कंप्यूटर उदाहरणों से पैटर्न सीखता है और उन पैटर्न का उपयोग अनुमान या उत्तर बनाने के लिए करता है।"}
+{"prompt": "प्रोग्रामिंग में लूप क्या है?", "response": "लूप निर्देशों को बार-बार चलाता है। Python में for और while सामान्य लूप हैं।"}
+{"prompt": "नेपालको राष्ट्रिय भाषा कुन हो?", "response": "नेपालको संविधानले देवनागरी लिपिमा लेखिने नेपाली भाषालाई सरकारी कामकाजको भाषा तोकेको छ। अन्य मातृभाषाहरू पनि नेपालको भाषिक सम्पदाका महत्त्वपूर्ण भाग हुन्।"}
+{"prompt": "इन्टरनेट नभए पनि AI चल्छ?", "response": "चल्न सक्छ, यदि आवश्यक मॉडल फाइलहरू र सबै आवश्यक सुविधाहरू उपकरणमै छन् भने। लाइव वेब खोज या क्लाउड मॉडल के लिए इंटरनेट चाहिए।"}
+{"prompt": "API बिना AI बनाउन के चाहिन्छ?", "response": "स्थानीय मॉडल, ऐप में inference runtime, मॉडल फ़ाइलें, और परीक्षण चाहिए। अपना मॉडल scratch से train करने के लिए dataset, training code और पर्याप्त compute भी चाहिए।"}
+{"prompt": "RICKY AI ले सबै कुरा जान्छ?", "response": "होइन। RICKY को क्षमता यसको मॉडल, प्रशिक्षण डेटा, उपकरण र परीक्षणमा निर्भर हुन्छ। यसले नजानेको कुरा स्पष्ट भन्नुपर्छ।"}
